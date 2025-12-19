@@ -1,10 +1,5 @@
-import Document, {
-  DocumentContext,
-  Head,
-  Html,
-  Main,
-  NextScript,
-} from 'next/document';
+import Document, { type DocumentContext } from 'next/document';
+import { Head, Html, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
@@ -39,6 +34,25 @@ export default class MyDocument extends Document {
       <>
         <Html lang="en">
           <Head>
+            <meta name="description" content="AWS Icon, a Icons library for AWS Icon based on the official AWS icon set (SVG), Build from AWS Architecture Icons" />
+            
+            {/* Open Graph */}
+            <meta property="og:type" content="website" />
+            <meta property="og:locale" content="en_IE" />
+            <meta property="og:url" content="https://aws-icon.vercel.app/" />
+            <meta property="og:site_name" content="AWS Icon" />
+            <meta property="og:title" content="AWS Icon" />
+            <meta property="og:description" content="AWS Icon, a Icons library for AWS Icon based on the official AWS icon set (SVG), Build from AWS Architecture Icons" />
+            <meta property="og:image" content="https://aws-icon.vercel.app/icon/logo512.png" />
+            
+            {/* Twitter */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="@mkabumattar" />
+            <meta name="twitter:creator" content="@mkabumattar" />
+            <meta name="twitter:title" content="AWS Icon" />
+            <meta name="twitter:description" content="AWS Icon, a Icons library for AWS Icon based on the official AWS icon set (SVG), Build from AWS Architecture Icons" />
+            <meta name="twitter:image" content="https://aws-icon.vercel.app/icon/logo512.png" />
+            
             <link rel="manifest" href="/manifest.webmanifest" />
             <link rel="apple-touch-icon" href="/icon/logo192.png" />
             <link rel="icon" href="/icon/favicon.ico" />
