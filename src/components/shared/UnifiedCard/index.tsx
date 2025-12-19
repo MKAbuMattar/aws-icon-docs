@@ -3,11 +3,11 @@ import type { Language } from 'react-highlight-syntax';
 import SyntaxHighlighter from '@/components/SyntaxHighlighter';
 import ReactIcon from '@/components/shared/ReactIcon';
 
-import {
+import type {
   IconsPageMainDaum as IconsDaum,
   ReactPageMainDaum as ReactDaum,
 } from '@/types/index';
-import { VersionConfig } from '../config/versions.config';
+import type { VersionConfig } from '../config/versions.config';
 import {
   Card,
   CardInfo,
@@ -80,20 +80,16 @@ interface IconComponentProps {
 }
 
 const IconComponent = ({ item, versionConfig }: IconComponentProps) => {
-  const myLoader = ({ src, width, quality }: any) => {
-    const version = versionConfig.version === 'latest' ? '3.2.0' : versionConfig.version;
-    return `https://unpkg.com/aws-icons@${version}/icons/${src}?w=${width}&q=${
-      quality || 75
-    }`;
-  };
+  const version = versionConfig.version === 'latest' ? '3.2.0' : versionConfig.version;
+  const imageUrl = `https://unpkg.com/aws-icons@${version}/icons/${item.icon}`;
 
   return (
     <Image
-      loader={myLoader}
-      src={item.icon}
+      src={imageUrl}
       alt={item.name}
       width={140}
       height={140}
+      unoptimized
     />
   );
 };
