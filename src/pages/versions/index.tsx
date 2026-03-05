@@ -20,8 +20,13 @@ import {
 // Version data with metadata
 const ICON_VERSIONS = [
   {
-    version: '3.2.0',
+    version: '3.3.0',
     isLatest: true,
+    releaseDate: 'Mar 6, 2026',
+  },
+  {
+    version: '3.2.0',
+    isLatest: false,
     releaseDate: 'Sep 14, 2025',
   },
   {
@@ -48,8 +53,13 @@ const ICON_VERSIONS = [
 
 const REACT_VERSIONS = [
   {
-    version: '3.2.0',
+    version: '3.3.0',
     isLatest: true,
+    releaseDate: 'Mar 6, 2026',
+  },
+  {
+    version: '3.2.0',
+    isLatest: false,
     releaseDate: 'Sep 14, 2025',
   },
   {
