@@ -38,9 +38,15 @@ export const VERSION_CONFIGS: Record<string, VersionConfig> = {
     defaultReactComponent: 'ArchitectureServiceAmazonAthena',
     isReactPage: true,
   },
+  'react_3.3.0': {
+    version: '3.3.0',
+    reactIconsPackage: '@aws-icons/react_3.3.0',
+    defaultReactComponent: 'ArchitectureServiceAmazonAthena',
+    isReactPage: true,
+  },
   'react_latest': {
-    version: '3.2.0',
-    reactIconsPackage: '@aws-icons/react_3.2.0',
+    version: '3.3.0',
+    reactIconsPackage: '@aws-icons/react_3.3.0',
     defaultReactComponent: 'ArchitectureServiceAmazonAthena',
     isReactPage: true,
   },
@@ -65,8 +71,12 @@ export const VERSION_CONFIGS: Record<string, VersionConfig> = {
     version: '3.2.0',
     isIconsPage: true,
   },
+  'icons_3.3.0': {
+    version: '3.3.0',
+    isIconsPage: true,
+  },
   'icons_latest': {
-    version: '3.2.0',
+    version: '3.3.0',
     isIconsPage: true,
   },
 };
