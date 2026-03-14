@@ -72,11 +72,11 @@ export const VERSION_CONFIGS: Record<string, VersionConfig> = {
     isIconsPage: true,
   },
   'icons_3.3.0': {
-    version: '3.3.0-beta.1',
+    version: '3.3.0',
     isIconsPage: true,
   },
   'icons_latest': {
-    version: '3.3.0-beta.1',
+    version: '3.3.0',
     isIconsPage: true,
   },
 };

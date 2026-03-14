@@ -9,41 +9,41 @@ importers:
   .:
     dependencies:
       '@aws-icons/react_1.2.0':
-        specifier: npm:aws-react-icons@1.2.0
-        version: aws-react-icons@1.2.0(react@19.2.4)
+        specifier: npm:aws-react-icons@3.3.0
+        version: aws-react-icons@3.3.0(react@19.2.4)
       '@aws-icons/react_1.3.0':
-        specifier: npm:aws-react-icons@1.3.0
-        version: aws-react-icons@1.3.0(react@19.2.4)
+        specifier: npm:aws-react-icons@3.3.0
+        version: aws-react-icons@3.3.0(react@19.2.4)
       '@aws-icons/react_2.1.1':
-        specifier: npm:aws-react-icons@2.1.1
-        version: aws-react-icons@2.1.1(react@19.2.4)
+        specifier: npm:aws-react-icons@3.3.0
+        version: aws-react-icons@3.3.0(react@19.2.4)
       '@aws-icons/react_3.0.0':
-        specifier: npm:aws-react-icons@3.0.0
-        version: aws-react-icons@3.0.0(react@19.2.4)
+        specifier: npm:aws-react-icons@3.3.0
+        version: aws-react-icons@3.3.0(react@19.2.4)
       '@aws-icons/react_3.2.0':
-        specifier: npm:aws-react-icons@3.2.0
-        version: aws-react-icons@3.2.0(react@19.2.4)
+        specifier: npm:aws-react-icons@3.3.0
+        version: aws-react-icons@3.3.0(react@19.2.4)
       '@aws-icons/react_3.3.0':
-        specifier: npm:aws-react-icons@3.3.0-beta.0
-        version: aws-react-icons@3.3.0-beta.0(react@19.2.4)
+        specifier: npm:aws-react-icons@3.3.0
+        version: aws-react-icons@3.3.0(react@19.2.4)
       '@aws-icons/svg_1.2.0':
-        specifier: npm:aws-icons@1.2.0
-        version: aws-icons@1.2.0
+        specifier: npm:aws-icons@3.3.0
+        version: aws-icons@3.3.0
       '@aws-icons/svg_1.3.0':
-        specifier: npm:aws-icons@1.3.0
-        version: aws-icons@1.3.0
+        specifier: npm:aws-icons@3.3.0
+        version: aws-icons@3.3.0
       '@aws-icons/svg_2.1.0':
-        specifier: npm:aws-icons@2.1.0
-        version: aws-icons@2.1.0
+        specifier: npm:aws-icons@3.3.0
+        version: aws-icons@3.3.0
       '@aws-icons/svg_3.0.0':
-        specifier: npm:aws-icons@3.0.0
-        version: aws-icons@3.0.0
+        specifier: npm:aws-icons@3.3.0
+        version: aws-icons@3.3.0
       '@aws-icons/svg_3.2.0':
-        specifier: npm:aws-icons@3.2.0
-        version: aws-icons@3.2.0
+        specifier: npm:aws-icons@3.3.0
+        version: aws-icons@3.3.0
       '@aws-icons/svg_3.3.0':
-        specifier: npm:aws-icons@3.3.0-beta.1
-        version: aws-icons@3.3.0-beta.1
+        specifier: npm:aws-icons@3.3.0
+        version: aws-icons@3.3.0
       next:
         specifier: 16.1.6
         version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -64,11 +64,11 @@ importers:
         version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@biomejs/biome':
-        specifier: 2.4.6
-        version: 2.4.6
+        specifier: 2.4.7
+        version: 2.4.7
       '@types/node':
-        specifier: 25.3.3
-        version: 25.3.3
+        specifier: 25.5.0
+        version: 25.5.0
       '@types/react':
         specifier: 19.2.14
         version: 19.2.14
@@ -81,65 +81,65 @@ importers:
 
 packages:
 
-  '@biomejs/biome@2.4.6':
-    resolution: {integrity: sha512-QnHe81PMslpy3mnpL8DnO2M4S4ZnYPkjlGCLWBZT/3R9M6b5daArWMMtEfP52/n174RKnwRIf3oT8+wc9ihSfQ==}
+  '@biomejs/biome@2.4.7':
+    resolution: {integrity: sha512-vXrgcmNGZ4lpdwZSpMf1hWw1aWS6B+SyeSYKTLrNsiUsAdSRN0J4d/7mF3ogJFbIwFFSOL3wT92Zzxia/d5/ng==}
     engines: {node: '>=14.21.3'}
     hasBin: true
 
-  '@biomejs/cli-darwin-arm64@2.4.6':
-    resolution: {integrity: sha512-NW18GSyxr+8sJIqgoGwVp5Zqm4SALH4b4gftIA0n62PTuBs6G2tHlwNAOj0Vq0KKSs7Sf88VjjmHh0O36EnzrQ==}
+  '@biomejs/cli-darwin-arm64@2.4.7':
+    resolution: {integrity: sha512-Oo0cF5mHzmvDmTXw8XSjhCia8K6YrZnk7aCS54+/HxyMdZMruMO3nfpDsrlar/EQWe41r1qrwKiCa2QDYHDzWA==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [darwin]
 
-  '@biomejs/cli-darwin-x64@2.4.6':
-    resolution: {integrity: sha512-4uiE/9tuI7cnjtY9b07RgS7gGyYOAfIAGeVJWEfeCnAarOAS7qVmuRyX6d7JTKw28/mt+rUzMasYeZ+0R/U1Mw==}
+  '@biomejs/cli-darwin-x64@2.4.7':
+    resolution: {integrity: sha512-I+cOG3sd/7HdFtvDSnF9QQPrWguUH7zrkIMMykM3PtfWU9soTcS2yRb9Myq6MHmzbeCT08D1UmY+BaiMl5CcoQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [darwin]
 
-  '@biomejs/cli-linux-arm64-musl@2.4.6':
-    resolution: {integrity: sha512-F/JdB7eN22txiTqHM5KhIVt0jVkzZwVYrdTR1O3Y4auBOQcXxHK4dxULf4z43QyZI5tsnQJrRBHZy7wwtL+B3A==}
+  '@biomejs/cli-linux-arm64-musl@2.4.7':
+    resolution: {integrity: sha512-I2NvM9KPb09jWml93O2/5WMfNR7Lee5Latag1JThDRMURVhPX74p9UDnyTw3Ae6cE1DgXfw7sqQgX7rkvpc0vw==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-arm64@2.4.6':
-    resolution: {integrity: sha512-kMLaI7OF5GN1Q8Doymjro1P8rVEoy7BKQALNz6fiR8IC1WKduoNyteBtJlHT7ASIL0Cx2jR6VUOBIbcB1B8pew==}
+  '@biomejs/cli-linux-arm64@2.4.7':
+    resolution: {integrity: sha512-om6FugwmibzfP/6ALj5WRDVSND4H2G9X0nkI1HZpp2ySf9lW2j0X68oQSaHEnls6666oy4KDsc5RFjT4m0kV0w==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-linux-x64-musl@2.4.6':
-    resolution: {integrity: sha512-C9s98IPDu7DYarjlZNuzJKTjVHN03RUnmHV5htvqsx6vEUXCDSJ59DNwjKVD5XYoSS4N+BYhq3RTBAL8X6svEg==}
+  '@biomejs/cli-linux-x64-musl@2.4.7':
+    resolution: {integrity: sha512-00kx4YrBMU8374zd2wHuRV5wseh0rom5HqRND+vDldJPrWwQw+mzd/d8byI9hPx926CG+vWzq6AeiT7Yi5y59g==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@biomejs/cli-linux-x64@2.4.6':
-    resolution: {integrity: sha512-oHXmUFEoH8Lql1xfc3QkFLiC1hGR7qedv5eKNlC185or+o4/4HiaU7vYODAH3peRCfsuLr1g6v2fK9dFFOYdyw==}
+  '@biomejs/cli-linux-x64@2.4.7':
+    resolution: {integrity: sha512-bV8/uo2Tj+gumnk4sUdkerWyCPRabaZdv88IpbmDWARQQoA/Q0YaqPz1a+LSEDIL7OfrnPi9Hq1Llz4ZIGyIQQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@biomejs/cli-win32-arm64@2.4.6':
-    resolution: {integrity: sha512-xzThn87Pf3YrOGTEODFGONmqXpTwUNxovQb72iaUOdcw8sBSY3+3WD8Hm9IhMYLnPi0n32s3L3NWU6+eSjfqFg==}
+  '@biomejs/cli-win32-arm64@2.4.7':
+    resolution: {integrity: sha512-hOUHBMlFCvDhu3WCq6vaBoG0dp0LkWxSEnEEsxxXvOa9TfT6ZBnbh72A/xBM7CBYB7WgwqboetzFEVDnMxelyw==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [win32]
 
-  '@biomejs/cli-win32-x64@2.4.6':
-    resolution: {integrity: sha512-7++XhnsPlr1HDbor5amovPjOH6vsrFOCdp93iKXhFn6bcMUI6soodj3WWKfgEO6JosKU1W5n3uky3WW9RlRjTg==}
+  '@biomejs/cli-win32-x64@2.4.7':
+    resolution: {integrity: sha512-qEpGjSkPC3qX4ycbMUthXvi9CkRq7kZpkqMY1OyhmYlYLnANnooDQ7hDerM8+0NJ+DZKVnsIc07h30XOpt7LtQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
 
-  '@emnapi/runtime@1.8.1':
-    resolution: {integrity: sha512-mehfKSMWjjNol8659Z8KxEMrdSJDDot5SXMq00dM8BN4o+CLNXQ0xH2V7EchNHV4RmbZLmmPdEaXZc5H2FXmDg==}
+  '@emnapi/runtime@1.9.0':
+    resolution: {integrity: sha512-QN75eB0IH2ywSpRpNddCRfQIhmJYBCJ1x5Lb3IscKAL8bMnVAKnRg8dCoXbHzVLLH7P38N2Z3mtulB7W0J0FKw==}
 
   '@emotion/is-prop-valid@1.4.0':
     resolution: {integrity: sha512-QgD4fyscGcbbKwJmqNvUMSE02OsHUa+lAWKdEUIJKgqe5IwRSKd7+KhibEWdaKwgjLj0DRSHA9biAIqGBk05lw==}
@@ -361,8 +361,8 @@ packages:
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
 
-  '@types/node@25.3.3':
-    resolution: {integrity: sha512-DpzbrH7wIcBaJibpKo9nnSQL0MTRdnWttGyE5haGwK86xgMOkFLp7vEyfQPGLOJh5wNYiJ3V9PmUMDhV9u8kkQ==}
+  '@types/node@25.5.0':
+    resolution: {integrity: sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -375,64 +375,24 @@ packages:
   '@types/stylis@4.2.7':
     resolution: {integrity: sha512-VgDNokpBoKF+wrdvhAAfS55OMQpL6QRglwTwNC3kIgBrzZxA4WsFj+2eLfEA/uMUDzBcEhYmjSbwQakn/i3ajA==}
 
-  aws-icons@1.2.0:
-    resolution: {integrity: sha512-rkiCc+WA/iZomimAnfIWnln7nEfIjOZLSucxGoQcNzX+dxm39f30/o1NzK/g9dCoEzBuRcq8xl/2auSgb6a2Dg==}
+  aws-icons@3.3.0:
+    resolution: {integrity: sha512-/ukOBw3a0n5cWRLJA75mC2WH/SttpLDfOCe1rgzfTfKaB13PTZp525sp7QDXW2tSH4AIggHzNdk8M8X+YfGKNQ==}
 
-  aws-icons@1.3.0:
-    resolution: {integrity: sha512-ssaCa/3c4qUdOtwy+EVY3AdfLE0fuoa9/ENhJkYZgWaH0DtqiNHm6XxapYMDaayjETH6nyVm3ApnWJ9/URFWaA==}
-
-  aws-icons@2.1.0:
-    resolution: {integrity: sha512-1uIL6naGfcdf6wNavno/7aMJRLan+Cw3+3IuVRrd+ghqTxp4TiyVb6DV01oq9ImzTBgSTBBYU+shjEiRL+qS6g==}
-
-  aws-icons@3.0.0:
-    resolution: {integrity: sha512-CQy7CLcNvDMyziXK7RbzcgBBVpB3mCvgw47Z22vOJPj65lRn0kMe2N9tl/bZSV73Fy2h+2F3ZAWrcuUnEvmMKQ==}
-
-  aws-icons@3.2.0:
-    resolution: {integrity: sha512-G7QLGzxab+spAXvoQcS9ZogCQXy9EQQAvMxTtdHAg539PrwPYi4YUXWiu11nnenEwriXF8OjKOsVCSKofRIFsg==}
-
-  aws-icons@3.3.0-beta.1:
-    resolution: {integrity: sha512-rFcbd+lqhWPJ9w72Z72FV18EvA0CVzmXdGrqk1yT/tcCNuRbXj8Z/fKi3H+yRY0Pe4xA+6L09LtRj79UcOs5Tg==}
-
-  aws-react-icons@1.2.0:
-    resolution: {integrity: sha512-TJ4a0fuWW3LlnWlB7bMk0gL5FUNOVUshJ79hC1Fnbzr1P82W8xX0bB1TRuX27ncqkiHLf/8VYR7+W3FXkidPzA==}
+  aws-react-icons@3.3.0:
+    resolution: {integrity: sha512-yNUgvVoWnUrQ7UESAnTlPratO8HAbk8Rd717cWtdjJ1+Bc50x2aEz5+REsQ0pAXcm8aXhCBjHLDN7hYuwnv1Mg==}
     peerDependencies:
       react: '*'
 
-  aws-react-icons@1.3.0:
-    resolution: {integrity: sha512-RKyeerB8+eSU9bP4O2V9Gc9QRzeBHSpI6e5SdTqrnybReLKkwiq1sN1HC/9evP3gdmgxajY7CXIPJQCbtwretA==}
-    peerDependencies:
-      react: '*'
-
-  aws-react-icons@2.1.1:
-    resolution: {integrity: sha512-V5ebXd3IG9fYiuy1CsEltYqxuyrY3UB0aTgJux8gtnUh2t1GjoLojKzigcT3hKiTHO/KNVPwN00rTNweGbKB/w==}
-    peerDependencies:
-      react: '*'
-
-  aws-react-icons@3.0.0:
-    resolution: {integrity: sha512-fQtXtMV+zzIV8lqKE8tKH33eHcw9pW8MQRQlpl2PVJZrro837BePcOqg5rOHuSuS9GXQO4jZwTvf3/p6hsrMOQ==}
-    peerDependencies:
-      react: '*'
-
-  aws-react-icons@3.2.0:
-    resolution: {integrity: sha512-yPpYM+KSMoIP7I7KWmRt/lqLXtFZXiFcWwaLtHl5ki5AOBdmUd8g7fZiHVp/djpl9Ea4sCrpwPmHA0Qy3mk68g==}
-    peerDependencies:
-      react: '*'
-
-  aws-react-icons@3.3.0-beta.0:
-    resolution: {integrity: sha512-Sgu6bFahzc7ppJithAGBoZC5WQmQbe+q/TsDqpl7fItj69/nETLzaP9e3SaVkZcmvr85NDLiBuTdKE0cPW3i0g==}
-    peerDependencies:
-      react: '*'
-
-  baseline-browser-mapping@2.10.0:
-    resolution: {integrity: sha512-lIyg0szRfYbiy67j9KN8IyeD7q7hcmqnJ1ddWmNt19ItGpNN64mnllmxUNFIOdOm6by97jlL6wfpTTJrmnjWAA==}
+  baseline-browser-mapping@2.10.8:
+    resolution: {integrity: sha512-PCLz/LXGBsNTErbtB6i5u4eLpHeMfi93aUv5duMmj6caNu6IphS4q6UevDnL36sZQv9lrP11dbPKGMaXPwMKfQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
   camelize@1.0.1:
     resolution: {integrity: sha512-dU+Tx2fsypxTgtLoE36npi3UqcjSSMNYfkqgmoEhtZrraP5VWq0K7FkWVTYa8eMPtnU/G2txVsfdCJTn9uzpuQ==}
 
-  caniuse-lite@1.0.30001776:
-    resolution: {integrity: sha512-sg01JDPzZ9jGshqKSckOQthXnYwOEP50jeVFhaSFbZcOy05TiuuaffDOfcwtCisJ9kNQuLBFibYywv2Bgm9osw==}
+  caniuse-lite@1.0.30001778:
+    resolution: {integrity: sha512-PN7uxFL+ExFJO61aVmP1aIEG4i9whQd4eoSCebav62UwDyp5OHh06zN4jqKSMePVgxHifCw1QJxdRkA1Pisekg==}
 
   client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
@@ -598,42 +558,42 @@ packages:
 
 snapshots:
 
-  '@biomejs/biome@2.4.6':
+  '@biomejs/biome@2.4.7':
     optionalDependencies:
-      '@biomejs/cli-darwin-arm64': 2.4.6
-      '@biomejs/cli-darwin-x64': 2.4.6
-      '@biomejs/cli-linux-arm64': 2.4.6
-      '@biomejs/cli-linux-arm64-musl': 2.4.6
-      '@biomejs/cli-linux-x64': 2.4.6
-      '@biomejs/cli-linux-x64-musl': 2.4.6
-      '@biomejs/cli-win32-arm64': 2.4.6
-      '@biomejs/cli-win32-x64': 2.4.6
+      '@biomejs/cli-darwin-arm64': 2.4.7
+      '@biomejs/cli-darwin-x64': 2.4.7
+      '@biomejs/cli-linux-arm64': 2.4.7
+      '@biomejs/cli-linux-arm64-musl': 2.4.7
+      '@biomejs/cli-linux-x64': 2.4.7
+      '@biomejs/cli-linux-x64-musl': 2.4.7
+      '@biomejs/cli-win32-arm64': 2.4.7
+      '@biomejs/cli-win32-x64': 2.4.7
 
-  '@biomejs/cli-darwin-arm64@2.4.6':
+  '@biomejs/cli-darwin-arm64@2.4.7':
     optional: true
 
-  '@biomejs/cli-darwin-x64@2.4.6':
+  '@biomejs/cli-darwin-x64@2.4.7':
     optional: true
 
-  '@biomejs/cli-linux-arm64-musl@2.4.6':
+  '@biomejs/cli-linux-arm64-musl@2.4.7':
     optional: true
 
-  '@biomejs/cli-linux-arm64@2.4.6':
+  '@biomejs/cli-linux-arm64@2.4.7':
     optional: true
 
-  '@biomejs/cli-linux-x64-musl@2.4.6':
+  '@biomejs/cli-linux-x64-musl@2.4.7':
     optional: true
 
-  '@biomejs/cli-linux-x64@2.4.6':
+  '@biomejs/cli-linux-x64@2.4.7':
     optional: true
 
-  '@biomejs/cli-win32-arm64@2.4.6':
+  '@biomejs/cli-win32-arm64@2.4.7':
     optional: true
 
-  '@biomejs/cli-win32-x64@2.4.6':
+  '@biomejs/cli-win32-x64@2.4.7':
     optional: true
 
-  '@emnapi/runtime@1.8.1':
+  '@emnapi/runtime@1.9.0':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -731,7 +691,7 @@ snapshots:
 
   '@img/sharp-wasm32@0.34.5':
     dependencies:
-      '@emnapi/runtime': 1.8.1
+      '@emnapi/runtime': 1.9.0
     optional: true
 
   '@img/sharp-win32-arm64@0.34.5':
@@ -773,7 +733,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@types/node@25.3.3':
+  '@types/node@25.5.0':
     dependencies:
       undici-types: 7.18.2
 
@@ -787,47 +747,17 @@ snapshots:
 
   '@types/stylis@4.2.7': {}
 
-  aws-icons@1.2.0: {}
+  aws-icons@3.3.0: {}
 
-  aws-icons@1.3.0: {}
-
-  aws-icons@2.1.0: {}
-
-  aws-icons@3.0.0: {}
-
-  aws-icons@3.2.0: {}
-
-  aws-icons@3.3.0-beta.1: {}
-
-  aws-react-icons@1.2.0(react@19.2.4):
+  aws-react-icons@3.3.0(react@19.2.4):
     dependencies:
       react: 19.2.4
 
-  aws-react-icons@1.3.0(react@19.2.4):
-    dependencies:
-      react: 19.2.4
-
-  aws-react-icons@2.1.1(react@19.2.4):
-    dependencies:
-      react: 19.2.4
-
-  aws-react-icons@3.0.0(react@19.2.4):
-    dependencies:
-      react: 19.2.4
-
-  aws-react-icons@3.2.0(react@19.2.4):
-    dependencies:
-      react: 19.2.4
-
-  aws-react-icons@3.3.0-beta.0(react@19.2.4):
-    dependencies:
-      react: 19.2.4
-
-  baseline-browser-mapping@2.10.0: {}
+  baseline-browser-mapping@2.10.8: {}
 
   camelize@1.0.1: {}
 
-  caniuse-lite@1.0.30001776: {}
+  caniuse-lite@1.0.30001778: {}
 
   client-only@0.0.1: {}
 
@@ -860,8 +790,8 @@ snapshots:
     dependencies:
       '@next/env': 16.1.6
       '@swc/helpers': 0.5.15
-      baseline-browser-mapping: 2.10.0
-      caniuse-lite: 1.0.30001776
+      baseline-browser-mapping: 2.10.8
+      caniuse-lite: 1.0.30001778
       postcss: 8.4.31
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
